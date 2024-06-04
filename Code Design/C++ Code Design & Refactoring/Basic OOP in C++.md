@@ -129,7 +129,7 @@ Dynamic binding : 컴파일러가 포인터의 메모리를 조사하여 타입�
 - 추상 클래스를 매게로 연결
 
 
-* Struct, Class 차이(c++에서)
++ Struct, Class 차이(c++에서)
 - Struct : 접근지정자 생략 시  기본 public
 - Class : 접근지정자 생략 시  기본 private
 - 위 기본 접근지정자를 제외한 나머지 완벽히 동일하므로 상속도 가능
