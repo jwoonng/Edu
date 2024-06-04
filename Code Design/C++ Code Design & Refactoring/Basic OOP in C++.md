@@ -1,5 +1,5 @@
 # 1. 생성자
-## 1.1 기반 샹성자와 파생 생성자
+## 1.1 기반 생성자와 파생 생성자
 기반 / 파생 생성자 중 우선 부르는 순위 표기
 ```
 파생 생성자 호출
@@ -96,24 +96,37 @@ Dynamic binding : 컴파일러가 포인터의 메모리를 조사하여 타입�
       >> 파생클래스에서  draw() 구현 X : 파생클래스도 추상클래스
       >> 파생클래스에서 draw() 구현 O : 파생클래스는 Concreate클래스
 
+  
 * 순수가상함수
 - 구현부는 없고, ‘=0’ 으로 표기
        EX) virtual void draw() = 0;
 
-* OCP(open close principle : 개방 폐쇄 원칙) 
-- 새로운 모듈, 클래스가 추가 되어도 기존 코드는 수정이 되지 않도록 해야한다.
+  
 
-* SOLID 원칙!
+
+*  강한 결합 (tightly coupling) 및 약한 결합 (Loose Coupling)
+- 강한 결합 : 하나의 클래스가 '직접' 다른 클래스의 이름을 사용 
+- 약한 결합 : 하나의 클래스가 'Interface' 클래스의 이름을 사용
+
+
+  
+# 5. SOLID 원칙
 - 객채 지향 프로그래밍애서 반드시 지켜야하는 5가지 원칙
-- SRP, OCP, LSP, ISP, DIP
 
+## 5.1 SRP (Single Responsibility Principle) 단일 책임의 원칙
+- 클래스는 하나의 기능만 가지며, 변경 시에도 하나의 책임을 위한 변경이 이루어져야 함
 
-*  강한 결합 (tightly coupling) 및 약한 결합 (
-- 강한 결합 : 하나의 클래스가 직접 다른 클래스의 이름을 사용 
-       >> Ex) ues_camera(Camera A)
+## 5.2 OCP (Open close principle) 개방 폐쇄 원칙 
+- 새로운 모듈, 클래스가 추가 되어도 기존 코드는 수정이 되지 않도록 해야함
 
-- 약한 결합 : 하나의 클래스가 Interface 클래스의 이름을 사용
-      >> Ex) use_camera(ICamera A)
+## 5.3 LSP (The Liskov Subtitution Principle) 리스코드 치환의 법칙
+- 파생 클래스는 기반 클래스의 규약을 따라야 함
+
+## 5.4 ISP (Interface Segregation Principle) 인터페이스 분리의 법칙
+- 클라이언트의 구체적인 기능에 맞춰 인터페이스가 단일 책임을 갖게 함
+
+## 5.5 DIP (Dependency Inversion Principle) 의존성 역전의 원칙
+- 추상 클래스를 매게로 연결
 
 
 * Struct, Class 차이(c++에서)
