@@ -35,6 +35,23 @@ JAVA Net와 Java IO API로 채팅 Application (Client / Service Application)
 Scalar 타입 => primitive data type, 8개의 유형 지원, = 연산자와 함께 사용
 Composite 타입 => reference data type, (배열, Collection 타입 (자료구조 + 알고리즘), class , interface) 객체로 취급하는 타입
 .연산자와 함께 사용
+-> Referencec Type은 선언, 생성, 초기화 단계가 필요
+
+```java
+<1>
+String s ;
+s = new String("java") : 생성과 초기화, heap 메모리에 생성
+
+<2>
+String t = "hello"; : 선언과 생성 초기화, String pool 메모리 영역에 생성됨
+```
+
+### promotion / casting
+- promotion : 작은 크기의 값을 큰 크기의 타입에 할당할 때 자동으로 작은 크기 타입으로 변경
+- casting : 큰 크기의 값을 작은 크기의 타입에 할당할 때 명시적으로 타입을 변경
+- > casting은 서로 변환 시 범주가 다르면 크기와 상관없이 casting 필요
+  > bool은 숫자와 호환 X : casting, promotion 둘 다 불가
+
 
 ### 1. 자료형
 - 논리 자료형 : boolean(1byte 할당 : 1byte단위로 할당되기 때문에 1bit 불가)
@@ -50,3 +67,18 @@ Composite 타입 => reference data type, (배열, Collection 타입 (자료구�
 - 메서드 내부 : 로컬 변수 (사용 전 초기화 필요)
 
 !boolean타입의 변수에 정수 불가!
+
+## 부동소수점
+실수 자료형 : 부동소수점 형식
+정수부.소수부 => (부호) X (가수부) X (지수부)
+
+
+## jAVA in
+- 기본 System.in에서 제공하는 in은 1byte 씩 가능
+- new BufferReader(new InputStreamReader(System.In))으로 새 객체 생성후
+- readLine()을 사용하여 in
+- > 이 때 문제가 buffer는 OS 단에서 제어하므로 JRE 범주를 넘어섬 -> 컴파일 에러 확인 불가
+  > 예외 처리 반드시 필요
+  
+-> Util 내 Scanner의 등장으로 적은 코드로 예외처리까지 가능
+
