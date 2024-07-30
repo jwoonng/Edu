@@ -13,14 +13,14 @@
 ## 클래스
 ### 선언
 > AccessModifier (public (default))    
-> [Modifier] (final, abstract) <br/>       
-> class <br/>       
-> 클래스 이름 <br/>        
-> [extends 부모클래스] : 클래스 간 상속은 단일 상속만 지원 <br/>       
+> [Modifier] (final, abstract)      
+> class         
+> 클래스 이름        
+> [extends 부모클래스] : 클래스 간 상속은 단일 상속만 지원         
 > { ... }   
 
 <hr/>
 ### 멤버필드
-> 인스턴스 필드 (객체 생성 시 heap 메모리에 생성 후 초기화되고 객체로 access) <br/> 
-> static 필드 (객체 생성없이 access 가능, 클래스이름으로 access, 모든 객체가 하나의 변수 값을 공유하고자 할 때 : 전역변수) <br/> 
-> 상수 (final 선언 및 명시적 초기화가 필요) <br/> 
+> 인스턴스 필드 (객체 생성 시 heap 메모리에 생성 후 초기화되고 객체로 access)   
+> static 필드 (객체 생성없이 access 가능, 클래스이름으로 access, 모든 객체가 하나의 변수 값을 공유하고자 할 때 : 전역변수)    
+> 상수 (final 선언 및 명시적 초기화가 필요)    
