@@ -11,9 +11,8 @@
 >          overload, override로 구현
 
 ## 클래스
-<hr/>
 ### 선언
-> AccessModifier (public (default)) <br/>       
+> AccessModifier (public (default))    
 > [Modifier] (final, abstract) <br/>       
 > class <br/>       
 > 클래스 이름 <br/>        
