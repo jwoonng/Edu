@@ -37,7 +37,7 @@
 > abstract 메서드 : body가 없는 메서드, 반드시 override 강제   
 > native 메서드 : 외부 라이브러리를 로드 System.load() 시키는 메서드   
 > syncronized 메서드 : 스레드 클래스의 메서드에서만 사용, 공유자원을 스레드 객체들이 sequential하게 호출해서 수행   
->
+>   
 >> AccessModifier (public, protected, (defualt), private)   
 >> [Modifier] (static ~ syncronized)   
 >> Type (primitive, reference data type, void)   
