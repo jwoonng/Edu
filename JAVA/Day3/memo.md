@@ -62,6 +62,8 @@
 
 ## final
 - final 클래스 : 상속 불가
+
+#javaㄴㅡㄴ
 - fianl 메서드 : override 불가
  
 ## abstract
