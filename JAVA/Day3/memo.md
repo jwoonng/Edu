@@ -28,7 +28,7 @@
 >> AccessModifier (public, pritected, (default), private)    
 >> [Modifier] (final, static, transient)    
 >> Type (primitive / reference data type)    
->> =   
+>> '='   
 >> Value
 
 ### 멤버 메서드
