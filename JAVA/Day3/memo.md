@@ -59,3 +59,11 @@
 - 상속받은 override는 1번만 간ㅡㅇ
 - AccessModifier 변경 시 더 유효범위가 넘은 것으로 선언
 - override에서 throws 사용 시 부모 클래스의 예외클래스보다 더 상위 예외 클래스의 throws는 불가
+
+## final
+- final 클래스 : 상속 불가
+- fianl 메서드 : override 불가
+ 
+## abstract
+- abstact 메서드가 포함된 클래스는 instance 생성 불가
+  -> 클래스에 abstract 선언 필요
