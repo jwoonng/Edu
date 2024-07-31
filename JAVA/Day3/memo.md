@@ -62,10 +62,22 @@
 
 ## final
 - final 클래스 : 상속 불가
-
-#javaㄴㅡㄴ
 - fianl 메서드 : override 불가
  
 ## abstract
 - abstact 메서드가 포함된 클래스는 instance 생성 불가
   -> 클래스에 abstract 선언 필요
+
+## static
+- static으로 정의된 메서드 내에서는 외부 non-static은 호출 불가
+
+## inner class
+- outer class의 private 멤버까지 access 가능
+- inner class객체 생성 시 : new 외부클래스(~).new 내부클래스(~)
+- inner class 내 멤버/메서드가 static 이면 자동으로 클래스에 static 선언
+
+## 익명 클래스
+- 생성과 동시에 구현
+
+## java string
+- ==는 주소를 확인하는 것으로 eqaul을 통해 확인
