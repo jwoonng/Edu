@@ -24,7 +24,7 @@
 > 인스턴스 필드 (객체 생성 시 heap 메모리에 생성 후 초기화되고 객체로 access)   
 > static 필드 (객체 생성없이 access 가능, 클래스이름으로 access, 모든 객체가 하나의 변수 값을 공유하고자 할 때 : 전역변수)    
 > 상수 (final 선언 및 명시적 초기화가 필요)    
->
+>   
 >> AccessModifier (public, pritected, (default), private)    
 >> [Modifier] (final, static, transient)    
 >> Type (primitive / reference data type)    
