@@ -8,8 +8,6 @@
 <table>
   <th>
     <td>
-    </td>
-    <td>
       기존
     </td>
     <td>
