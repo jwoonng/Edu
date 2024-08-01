@@ -29,3 +29,6 @@
          </ul> </td>
   </tr>
 </table>
+
+## default
+- interface 는 따로 지정을 안하면 abstract로 지정
