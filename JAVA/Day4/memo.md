@@ -32,3 +32,12 @@
 
 ## default
 - interface 는 따로 지정을 안하면 abstract로 지정
+
+## Error 및 Exception
+### Error
+
+> Compile Error : Syntax Checking, 언어 규칙
+> Runtime Error ; 실행시점 발생하는 에러
+>> Runtime 에러 예외 처리
+>> 1. handle (try - catch - finally)
+>> 2. declare (throws)
